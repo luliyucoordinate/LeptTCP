@@ -44,5 +44,17 @@
     <ClInclude Include="LeptTask.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LeptClient.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lept.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LeptServer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="INetEvent.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

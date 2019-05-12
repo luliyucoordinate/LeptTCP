@@ -1,5 +1,5 @@
-#ifndef _MessageHeader_hpp_
-#define _MessageHeader_hpp_
+#ifndef _MESSAGEHEADER_HPP_
+#define _MESSAGEHEADER_HPP_
 
 enum CMD
 {
@@ -79,4 +79,4 @@ struct NewUserJoin : public DataHeader
     int scok;
 };
 
-#endif // !_MessageHeader_hpp_
+#endif // !_MESSAGEHEADER_HPP_

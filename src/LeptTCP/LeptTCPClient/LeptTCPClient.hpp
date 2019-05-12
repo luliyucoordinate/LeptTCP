@@ -1,5 +1,5 @@
-#ifndef _LeptTCPClient_hpp_
-#define _LeptTCPClient_hpp_
+#ifndef _LEPTTCPCLIENT_HPP_
+#define _LEPTTCPCLIENT_HPP_
 
 #ifdef _WIN32
 #define WIN32_LEAN_AND_MEAN
@@ -245,4 +245,4 @@ private:
 
 };
 
-#endif
+#endif //!_LEPTTCPCLIENT_HPP_

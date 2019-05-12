@@ -26,19 +26,19 @@ class MyServer : public LeptTCPServer
 public:
 
     //只会被一个线程触发 安全
-    virtual void OnNetJoin(ClientSocketPtr& pClient)
+    virtual void OnNetJoin(LeptClientPtr& pClient)
     {
         LeptTCPServer::OnNetJoin(pClient);
     }
     //cellServer 4 多个线程触发 不安全
     //如果只开启1个cellServer就是安全的
-    virtual void OnNetLeave(ClientSocketPtr& pClient)
+    virtual void OnNetLeave(LeptClientPtr& pClient)
     {
         LeptTCPServer::OnNetLeave(pClient);
     }
     //cellServer 4 多个线程触发 不安全
     //如果只开启1个cellServer就是安全的
-    virtual void OnNetMsg(LeptServer* pCellServer, ClientSocketPtr& pClient, DataHeader* header)
+    virtual void OnNetMsg(LeptServer* pCellServer, LeptClientPtr& pClient, DataHeader* header)
     {
         LeptTCPServer::OnNetMsg(pCellServer, pClient, header);
         switch (header->cmd)

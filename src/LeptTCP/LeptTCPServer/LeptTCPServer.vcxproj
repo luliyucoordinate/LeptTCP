@@ -155,7 +155,11 @@
   <ItemGroup>
     <ClInclude Include="..\Include\MessageHeader.hpp" />
     <ClInclude Include="Allocator.h" />
+    <ClInclude Include="INetEvent.hpp" />
+    <ClInclude Include="Lept.hpp" />
+    <ClInclude Include="LeptClient.hpp" />
     <ClInclude Include="LeptObjectPool.hpp" />
+    <ClInclude Include="LeptServer.hpp" />
     <ClInclude Include="LeptTask.hpp" />
     <ClInclude Include="MemoryMgr.hpp" />
   </ItemGroup>
